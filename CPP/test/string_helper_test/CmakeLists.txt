@@ -1,0 +1,6 @@
+set(string_helper_test
+    main.cpp
+)
+
+add_executable(string_helper_test_exe ${string_helper_test})
+target_link_libraries(string_helper_test_exe PRIVATE Utils) 
