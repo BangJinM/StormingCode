@@ -10,6 +10,16 @@ std::string StringHelper::StrLowerA(const std::string &str)
     return std::string();
 }
 
+std::wstring StrUpperW(const std::wstring &str)
+{
+    return std::wstring();
+}
+
+std::string StrUpperA(const std::string &str)
+{
+    return std::string();
+}
+
 bool StringHelper::SplitStringW(const std::wstring &strSource, const std::wstring &strFlag, std::vector<std::wstring> &paramList)
 {
     if (strSource.empty() || strFlag.empty())

@@ -19,6 +19,11 @@ public:
     //字符串转小写
     static std::string StrLowerA(const std::string &str);
 
+    //字符串转大写
+    static std::wstring StrUpperW(const std::wstring &str);
+    //字符串转大写
+    static std::string StrUpperA(const std::string &str);
+
     //宽字符串分割
     static bool SplitStringW(const std::wstring &strSource, const std::wstring &strFlag, std::vector<std::wstring> &paramList);
     //字符串分割
