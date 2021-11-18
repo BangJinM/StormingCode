@@ -1,0 +1,17 @@
+set(BUILDER_PATTERN_HEADER 
+ChikenHamburg.h
+CocaCola.h
+Define.h
+Drink.h
+Hamburg.h
+Item.h
+Meal.h
+PepsiCola.h
+VegHamburg.h
+)
+
+set(BUILDER_PATTERN_SRC 
+Item.cpp
+Meal.cpp
+)
+add_library(builder_pattern ${BUILDER_PATTERN_HEADER} ${BUILDER_PATTERN_SRC})
