@@ -1,0 +1,16 @@
+set(FACTORY_PATTERN_HEADER 
+Define.h
+ShapeFactory.h
+Circle.h
+Rectangle.h
+Shape.h
+Square.h
+)
+
+set(FACTORY_PATTERN_SRC 
+ShapeFactory.cpp
+Circle.cpp
+Rectangle.cpp
+Square.cpp
+)
+add_library(factory_pattern ${FACTORY_PATTERN_HEADER} ${FACTORY_PATTERN_SRC})
